@@ -23,7 +23,7 @@ par(mfrow = c(2, 2))
 plot(datetime, data$Global_active_power, type="l", xlab= "", ylab="Global Active Power")
 
 ########TopRight
-plot(datetime, data$Voltage, type="l", xlab="datetime", ylab="Voltage", cex=0.2)
+plot(datetime, data$Voltage, type="l", xlab="datetime", ylab="Voltage")
 
 ########BottomLeft
 plot(datetime, data$Sub_metering_1, type="l", xlab="", ylab="Energy sub metering")
